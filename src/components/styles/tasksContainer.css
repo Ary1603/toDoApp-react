@@ -1,0 +1,75 @@
+.container-titles,
+.task {
+    text-align: left;
+}
+
+.tasks-container {
+    width: 50%;
+    margin: 3% auto;
+    border-radius: 7px;
+}
+
+.container-titles {
+
+    margin-left: 15px;
+    font-family: sans-serif;
+}
+
+.items-container {
+    margin-left: 50px;
+    display: flex;
+
+}
+
+.btn-task {
+    position: relative;
+    left: 5%;
+    margin: 0px 5px;
+}
+
+.task {
+    font-size: 18px;
+    width: 70%;
+
+}
+
+.task:hover {
+    border-bottom: 1px solid rgb(68, 118, 194);
+    cursor: none;
+}
+
+.btn-task {
+    position: relative;
+    left: 5%;
+    margin: 0px 5px;
+    width: 40px;
+    height: 40px;
+    color: aliceblue;
+    border-radius: 50%;
+}
+
+#btn-success {
+    background-color: rgb(168, 226, 59);
+    border: 1px solid rgb(209, 204, 204);
+}
+
+#btn-update {
+    border-radius: 5px;
+    width: 90px;
+    height: 40px;
+    border: 1px solid rgb(209, 204, 204);
+    background-color: rgb(73, 175, 223);
+}
+
+#btn-delete {
+    background-color: rgb(226, 59, 59);
+    border: 0.5px solid rgb(49, 48, 48);
+}
+
+#btn-update:hover {
+    border: 1.5px solid rgb(45, 68, 78);
+}
+
+#btn-success:hover {
+    border: 1.5px solid rgb(51, 65, 26);
+}

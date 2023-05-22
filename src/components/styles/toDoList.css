@@ -1,0 +1,45 @@
+.items-container {
+    display: flex;
+}
+
+.inputs {
+    border-radius: 6px;
+    border: 0.5px solid black;
+    padding: 5px;
+    width: 25%;
+    margin-right: 6px;
+}
+
+.inputs:focus {
+    outline-color: rgb(59, 173, 226);
+}
+
+.btn-add-task {
+    background-color: rgb(59, 173, 226);
+    font-size: 20px;
+    border-radius: 50%;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    font-family: sans-serif;
+    width: 35px;
+    height: 35px;
+}
+
+.btn-add-task:hover {
+    animation-name: cross;
+    animation-duration: 0.35s;
+}
+
+
+
+@keyframes cross {
+    0% {
+        rotate: 0;
+    }
+
+    100% {
+        rotate: 90deg;
+    }
+
+
+}
